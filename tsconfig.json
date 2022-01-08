@@ -1,6 +1,11 @@
 {
-  "extends": "expo/tsconfig.base",
-  "compilerOptions": {
-    "strict": true
-  }
+    "extends": "expo/tsconfig.base",
+    "compilerOptions": {
+        "strict": true,
+        "target": "es6",
+        "jsx": "react"
+    },
+    // Add the "include" array below
+    // Inside the array, specify files you want ESLint to check
+    "include": ["./**/*", "./*", ".eslintrc.js"]
 }
