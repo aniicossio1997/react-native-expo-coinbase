@@ -8,7 +8,17 @@ export const SET_WATCHLIST_DATA = 'SET_WATCHLIST_DATA';
 
 export const fetchCoinData = () => {
     return async (dispatch: ThunkDispatch<WatchlistState, void, Action>) => {
-        const coins = ['BTC', 'ETH', 'XRP', 'DOGE', 'SHIB', 'MANA'];
+        const coins = [
+            'BTC',
+            'ETH',
+            'USDT',
+            'XRP',
+            'DOGE',
+            'SHIB',
+            'MANA',
+            'BNB',
+            'ADA'
+        ];
 
         try {
             const cryptoResponse = await fetch(

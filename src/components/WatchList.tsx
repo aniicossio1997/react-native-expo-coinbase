@@ -65,10 +65,11 @@ const styles = StyleSheet.create({
     },
     watchlistContainer: {
         width: '88%',
-        borderWidth: 1,
+        borderWidth: 0.3,
         borderRadius: 8,
         borderColor: Colors.border,
-        backgroundColor: 'white'
+        backgroundColor: 'white',
+        marginBottom: 30
     }
 });
 

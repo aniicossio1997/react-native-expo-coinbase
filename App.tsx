@@ -7,7 +7,6 @@ import { createStore, combineReducers, applyMiddleware } from 'redux';
 import ReduxThunk from 'redux-thunk';
 
 import watchlistReducer from './src/store/reducers/watchlist';
-import 'react-native-gesture-handlers';
 const rootReducer = combineReducers({
     watchlist: watchlistReducer
 });
